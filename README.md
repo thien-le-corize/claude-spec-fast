@@ -1,10 +1,12 @@
 # Claude Spec Fast CLI
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/thien-le-corize/claude-spec-fast/main/assets/csf96-demo.png" alt="CSF96 CLI Demo" width="600"/>
+
   <h3>🚀 Claude Spec Fast CLI</h3>
   <p>Scaffold production-grade .claude AI agent configurations with spec-driven development workflow</p>
 
-  ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+  ![Version](https://img.shields.io/badge/version-1.2.0-blue?style=flat-square)
   ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green?style=flat-square)
   ![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
 </div>
