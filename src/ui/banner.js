@@ -3,11 +3,15 @@ const require = createRequire(import.meta.url);
 const pkg = require('../../package.json');
 
 export function showBanner() {
-  const banner = `
-╔══════════════════════════════════════════╗
-║     🚀 Claude Spec Fast CLI             ║
-║     csf v${pkg.version.padEnd(22)}║
-╚══════════════════════════════════════════╝`;
+  const banner = `\x1b[33m
+   ██████╗ ███████╗███████╗ █████╗  ██████╗ 
+  ██╔════╝ ██╔════╝██╔════╝██╔══██╗██╔════╝ 
+  ██║      ███████╗█████╗  ╚██████║███████╗ 
+  ██║      ╚════██║██╔══╝   ╚═══██║██╔═══██╗
+  ╚██████╗ ███████║██║      █████╔╝╚██████╔╝
+   ╚═════╝ ╚══════╝╚═╝      ╚════╝  ╚═════╝\x1b[0m
+\x1b[90m  Claude Spec Fast CLI v${pkg.version}\x1b[0m
+`;
   console.log(banner);
 }
 

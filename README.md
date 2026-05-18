@@ -1,4 +1,4 @@
-# @jack96dev/claude-spec-fast
+# Claude Spec Fast CLI
 
 <div align="center">
   <h3>🚀 Claude Spec Fast CLI</h3>
