@@ -1,6 +1,6 @@
 {
   "name": "@jack96devcodon/claude-spec-fast",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "CLI tool to scaffold production-grade .claude AI agent configurations with spec-driven development workflow",
   "type": "module",
   "bin": {
