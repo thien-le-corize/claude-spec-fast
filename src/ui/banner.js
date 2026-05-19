@@ -3,13 +3,13 @@ const require = createRequire(import.meta.url);
 const pkg = require('../../package.json');
 
 export function showBanner() {
-  const banner = `\x1b[33m
-   ██████╗ ███████╗███████╗ █████╗  ██████╗ 
-  ██╔════╝ ██╔════╝██╔════╝██╔══██╗██╔════╝ 
-  ██║      ███████╗█████╗  ╚██████║███████╗ 
-  ██║      ╚════██║██╔══╝   ╚═══██║██╔═══██╗
-  ╚██████╗ ███████║██║      █████╔╝╚██████╔╝
-   ╚═════╝ ╚══════╝╚═╝      ╚════╝  ╚═════╝\x1b[0m
+  const banner = `\x1b[37m
+   ██████╗ ██████╗ ██████╗ ██╗███████╗███████╗██╗   ██╗███╗   ██╗
+  ██╔════╝██╔═══██╗██╔══██╗██║╚══███╔╝██╔════╝██║   ██║████╗  ██║
+  ██║     ██║   ██║██████╔╝██║  ███╔╝ █████╗  ██║   ██║██╔██╗ ██║
+  ██║     ██║   ██║██╔══██╗██║ ███╔╝  ██╔══╝  ╚██╗ ██╔╝██║╚██╗██║
+  ╚██████╗╚██████╔╝██║  ██║██║███████╗███████╗ ╚████╔╝ ██║ ╚████║
+   ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝  ╚═══╝  ╚═╝  ╚═══╝\x1b[0m
 \x1b[90m  Claude Spec Fast CLI v${pkg.version}\x1b[0m
 `;
   console.log(banner);
@@ -17,7 +17,7 @@ export function showBanner() {
 
 export function showFooter() {
   console.log('');
-  console.log('  📦 npm: @jack96dev/claude-spec-fast');
-  console.log('  🐙 GitHub: github.com/jack96dev/claude-spec-fast');
+  console.log('  📦 npm: @jack96devcodon/claude-spec-fast');
+  console.log('  🐙 GitHub: github.com/thien-le-corize/claude-spec-fast');
   console.log('');
 }

@@ -1,6 +1,6 @@
 {
   "name": "@jack96devcodon/claude-spec-fast",
-  "version": "1.2.3",
+  "version": "1.2.6",
   "description": "CLI tool to scaffold production-grade .claude AI agent configurations with spec-driven development workflow",
   "type": "module",
   "bin": {
@@ -37,7 +37,6 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^7.2.0",
-    "@jack96devcodon/claude-spec-fast": "^1.1.1",
     "chalk": "^5.4.1",
     "commander": "^12.1.0",
     "ora": "^8.1.1"
